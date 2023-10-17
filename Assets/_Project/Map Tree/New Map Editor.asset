@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8074927397096639167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d251d877f9d30224599bf89972db5cf2, type: 3}
+  m_Name: NewMapNode
+  m_EditorClassIdentifier: 
+  SceneName: Dark Forest
+  Sprite: {fileID: 21300000, guid: 5429119c17d879743ac7063b438a94f4, type: 3}
+  Guid: 9e8a9476304d4bb4fab4eefddc267e20
+  Position: {x: 698.4, y: -232}
+  LeftExits:
+  - {fileID: -5235442903816968908}
+  RightExits:
+  - {fileID: 1189590346762676542}
+--- !u!114 &-5387095885064395812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d251d877f9d30224599bf89972db5cf2, type: 3}
+  m_Name: NewMapNode
+  m_EditorClassIdentifier: 
+  SceneName: Laboratory
+  Sprite: {fileID: 21300000, guid: df3349507ad1b35428f3dd50769e7444, type: 3}
+  Guid: 7946e33554e6e6845990c2139d72b56e
+  Position: {x: 1132.62, y: -87.99999}
+  LeftExits:
+  - {fileID: 9064611581823227554}
+  RightExits:
+  - {fileID: 8676095780776043307}
+--- !u!114 &-5235442903816968908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d251d877f9d30224599bf89972db5cf2, type: 3}
+  m_Name: NewMapNode
+  m_EditorClassIdentifier: 
+  SceneName: Red Forest
+  Sprite: {fileID: 21300000, guid: b7643af5a5ff1c849b1c1c7f086e0eb8, type: 3}
+  Guid: 69b4b339763dfea45abc552351e3f7a8
+  Position: {x: 322.40002, y: 8.799988}
+  LeftExits:
+  - {fileID: -4214241710556066800}
+  RightExits:
+  - {fileID: -8074927397096639167}
+  - {fileID: 9064611581823227554}
+--- !u!114 &-4214241710556066800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d251d877f9d30224599bf89972db5cf2, type: 3}
+  m_Name: NewMapNode
+  m_EditorClassIdentifier: 
+  SceneName: Underwater
+  Sprite: {fileID: 21300000, guid: 5dd36623205d25d4b8b21f3de06cddcf, type: 3}
+  Guid: 51829460306a3c14981b886274c2dda5
+  Position: {x: -45.51763, y: 148.80003}
+  LeftExits: []
+  RightExits:
+  - {fileID: -5235442903816968908}
+  - {fileID: 188914365728142451}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32be6fc66ee227c4a99ae9a35f1c88c6, type: 3}
+  m_Name: New Map Editor
+  m_EditorClassIdentifier: 
+  AllNodes:
+  - {fileID: -4214241710556066800}
+  - {fileID: -5235442903816968908}
+  - {fileID: 188914365728142451}
+  - {fileID: 8676095780776043307}
+  - {fileID: -5387095885064395812}
+  - {fileID: -8074927397096639167}
+  - {fileID: 7458318735655614156}
+  - {fileID: 1189590346762676542}
+  - {fileID: 9064611581823227554}
+--- !u!114 &188914365728142451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d251d877f9d30224599bf89972db5cf2, type: 3}
+  m_Name: NewMapNode
+  m_EditorClassIdentifier: 
+  SceneName: Elven Ruins
+  Sprite: {fileID: 21300000, guid: 9c83ad6358625ac459d8e7ea11fffe45, type: 3}
+  Guid: d4279095d0392444d82a88fea6c04f58
+  Position: {x: 322, y: 308.80002}
+  LeftExits:
+  - {fileID: -4214241710556066800}
+  RightExits:
+  - {fileID: 1189590346762676542}
+  - {fileID: 9064611581823227554}
+--- !u!114 &1189590346762676542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d251d877f9d30224599bf89972db5cf2, type: 3}
+  m_Name: NewMapNode
+  m_EditorClassIdentifier: 
+  SceneName: City Square
+  Sprite: {fileID: 21300000, guid: 98bdce40eb741f549be526c41570c866, type: 3}
+  Guid: e3cf3ff46f4b84c4fb24719a0e5a6987
+  Position: {x: 1132.62, y: 308.80002}
+  LeftExits:
+  - {fileID: 188914365728142451}
+  - {fileID: -8074927397096639167}
+  RightExits:
+  - {fileID: 8676095780776043307}
+--- !u!114 &7458318735655614156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d251d877f9d30224599bf89972db5cf2, type: 3}
+  m_Name: NewMapNode
+  m_EditorClassIdentifier: 
+  SceneName: Throne Room
+  Sprite: {fileID: 21300000, guid: 4803181b7e1236e429fb93dbf1dc1f98, type: 3}
+  Guid: 78eb872b89839264bb14d304f30e823c
+  Position: {x: 1738.1875, y: 131.20006}
+  LeftExits:
+  - {fileID: 8676095780776043307}
+  RightExits: []
+--- !u!114 &8676095780776043307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d251d877f9d30224599bf89972db5cf2, type: 3}
+  m_Name: NewMapNode
+  m_EditorClassIdentifier: 
+  SceneName: Arena
+  Sprite: {fileID: 21300000, guid: 4c7d8e8039769b546a3eb7a0e71aaf23, type: 3}
+  Guid: c7ec06c343118c44cbcb0aaaaef4ffec
+  Position: {x: 1420.93, y: 131.20006}
+  LeftExits:
+  - {fileID: 1189590346762676542}
+  - {fileID: -5387095885064395812}
+  RightExits:
+  - {fileID: 7458318735655614156}
+--- !u!114 &9064611581823227554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d251d877f9d30224599bf89972db5cf2, type: 3}
+  m_Name: NewMapNode
+  m_EditorClassIdentifier: 
+  SceneName: Graveyard
+  Sprite: {fileID: 21300000, guid: 2940b652fadde4c4d96d0fef70877581, type: 3}
+  Guid: 734423c00ef399e4a9ed603a918c479c
+  Position: {x: 704.80005, y: 89.599976}
+  LeftExits:
+  - {fileID: -5235442903816968908}
+  - {fileID: 188914365728142451}
+  RightExits:
+  - {fileID: -5387095885064395812}

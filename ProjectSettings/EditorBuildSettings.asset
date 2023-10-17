@@ -6,6 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/_Project/Scenes/Arena.unity
+    guid: 2f9a0a6e7fe0149449cd7b84339539e2
+  - enabled: 1
+    path: Assets/_Project/Scenes/City Square.unity
+    guid: 325ad115d2241ac4c835bb2ff586c30e
+  - enabled: 1
+    path: Assets/_Project/Scenes/Dark Forest.unity
+    guid: f42082eecd1e7a746b24933be1592d48
+  - enabled: 1
+    path: Assets/_Project/Scenes/Elven Ruins.unity
+    guid: 12521a39210e8a5439e38ecbf852b8b0
+  - enabled: 1
+    path: Assets/_Project/Scenes/Graveyard.unity
+    guid: 1e7dc075f54802f4fa00f031feffbb2e
+  - enabled: 1
+    path: Assets/_Project/Scenes/Laboratory.unity
+    guid: ff0cb9386ed7a8b4fb500590cedec817
+  - enabled: 1
+    path: Assets/_Project/Scenes/Red Forest.unity
+    guid: 5475ce225ccb20144b18922ff59e5dce
+  - enabled: 1
+    path: Assets/_Project/Scenes/Throne Room.unity
+    guid: 5dc6c2bcefa7b344d8ad4e48babb9064
+  - enabled: 1
+    path: Assets/_Project/Scenes/Underwater.unity
+    guid: ba91a4ffb867b8b4b99a4be86edcaab8
   m_configObjects: {}
